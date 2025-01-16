@@ -1,1 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The History of Video Games</title>
+</head>
+<body>
+
+    <header>
+        <h1>The History of Video Games</h1>
+        <p>Exploring the evolution and impact of video games on society.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Early Beginnings</h2>
+            <p>The history of video games began in the 1950s, with simple games like <em>Tennis for Two</em> being created for entertainment.</p>
+            <img src="images/early_games.jpg" alt="An early video game machine" />
+        </section>
+
+        <section>
+            <h2>Golden Age of Arcade Games</h2>
+            <p>During the 1970s and 1980s, arcade games like <strong>Pong</strong> and <strong>Space Invaders</strong> became incredibly popular.</p>
+            <img src="images/arcade_games.jpg" alt="Old school arcade games" />
+        </section>
+
+        <section>
+            <h2>Modern Video Games</h2>
+            <p>In the 2000s and beyond, video games have become more immersive, with titles like <em>Grand Theft Auto V</em> and <em>The Legend of Zelda</em> pushing the boundaries of technology and storytelling.</p>
+            <img src="images/modern_games.jpg" alt="A modern gaming console and controller" />
+        </section>
+
+        <section>
+            <h3>Fun Facts about Video Games</h3>
+            <ul>
+                <li>The first video game ever created was <em>Tennis for Two</em>.</li>
+                <li>The video game industry is worth over $150 billion worldwide.</li>
+                <li>Over 2.5 billion people play video games globally.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Learn More</h3>
+            <p>For more detailed history, check out <a href="https://en.wikipedia.org/wiki/History_of_video_games" target="_blank">this Wikipedia page</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 The History of Video Games. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
 
