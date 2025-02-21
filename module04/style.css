@@ -1,141 +1,57 @@
-/*
-Description:  theme for Classes
-Author:       J Neathawk
-Author URI:   https://knighthawk0811.github.io
-License: GPLv3
-License URI: http://www.gnu.org/licenses/gpl.html
-*/
-
-
-
-/*--------------------------------------------------------------
-:root {
-  --header-bg: #2c3e50;
-  --nav-bullet-color: blue;
-  --nav-text-color: black;
-  --nav-hover-color: red;
-  --nav-active-color: green;
-  --nav-visited-color: gray;
-  --border-color: black;
-}
-----------------------------------------------------------------
->>> COLORS:	  
-----------------------------------------------------------------
-:root {
-  --color-variable: #ffffff;
-}
-
-
-----------------------------------------------------------------
->>> TABLE OF CONTENTS:
-----------------------------------------------------------------
-# Universal
-# General Elements
-# Modal Navigation
-# Navigation
-# Header Area
-# Content Area
-# Footer Area
-# Reusable Classes
-# Other
-# Templates
-# Media Queries
-
---------------------------------------------------------------*/
-
-
-
-/*--------------------------------------------------------------
-# Universal
---------------------------------------------------------------*/
-html * {
-    box-sizing: border-box;
-}
-
 body {
     margin: 0;
+    font-family: Arial, sans-serif;
 }
-/*--------------------------------------------------------------
-# General Elements
---------------------------------------------------------------*/
 
-
-/*--------------------------------------------------------------
-# Navigation
---------------------------------------------------------------*/
+/* Style the navigation bullets */
 nav ul {
-    list-style-type: square; /* Change bullets */
+    list-style-type: square;
 }
-
-nav ul li {
-    color: black; /* Different bullet color */
-}
-
-nav a {
-    color: green;
-    text-decoration: none;
-}
-
-nav a:visited {
-    color: purple;
-}
-
-nav a:hover {
+nav ul li::marker {
     color: red;
 }
 
+/* Navigation link colors */
+nav a:link {
+    color: blue;
+}
+nav a:visited {
+    color: purple;
+}
+nav a:hover {
+    color: green;
+}
 nav a:active {
-    color: yellow;
+    color: orange;
 }
 
-/*--------------------------------------------------------------
-# Header Area
---------------------------------------------------------------*/
+/* Header styles */
 header {
-    background-color: white;
-    padding: 1rem;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
 
-/*--------------------------------------------------------------
-# Content Area
---------------------------------------------------------------*/
+/* Main section styling */
 main {
     width: calc(70% - 1px);
     float: left;
     padding: 1rem;
-    border-right: 1px solid beige;
+    border-right: 1px solid black;
 }
 
+/* Aside styling */
 aside {
     width: 30%;
     float: right;
 }
 
-/*--------------------------------------------------------------
-# Footer Area
---------------------------------------------------------------*/
+/* Footer styling */
 footer {
-    background-color: gold;
-    text-align: center;
     clear: both;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
-
-/*--------------------------------------------------------------
-# Reusable Classes
---------------------------------------------------------------*/
-
-
-/*--------------------------------------------------------------
-# Other
---------------------------------------------------------------*/
-
-
-/*--------------------------------------------------------------
-# Templates
---------------------------------------------------------------*/
-
-
-/*--------------------------------------------------------------
-# Media Queries
---------------------------------------------------------------*/
-
