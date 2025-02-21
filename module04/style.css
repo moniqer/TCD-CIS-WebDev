@@ -68,31 +68,31 @@ nav ul {
 }
 
 nav ul li {
-    color: var(--nav-bullet-color); /* Different bullet color */
+    color: black; /* Different bullet color */
 }
 
 nav a {
-    color: var(--nav-text-color);
+    color: green;
     text-decoration: none;
 }
 
 nav a:visited {
-    color: var(--nav-visited-color);
+    color: purple;
 }
 
 nav a:hover {
-    color: var(--nav-hover-color);
+    color: red;
 }
 
 nav a:active {
-    color: var(--nav-active-color);
+    color: yellow;
 }
 
 /*--------------------------------------------------------------
 # Header Area
 --------------------------------------------------------------*/
 header {
-    background-color: var(--header-bg);
+    background-color: white;
     padding: 1rem;
 }
 
@@ -103,7 +103,7 @@ main {
     width: calc(70% - 1px);
     float: left;
     padding: 1rem;
-    border-right: 1px solid var(--border-color);
+    border-right: 1px solid beige;
 }
 
 aside {
@@ -115,7 +115,7 @@ aside {
 # Footer Area
 --------------------------------------------------------------*/
 footer {
-    background-color: var(--header-bg);
+    background-color: gold;
     text-align: center;
     clear: both;
 }
