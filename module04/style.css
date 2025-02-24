@@ -3,7 +3,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Style the navigation bullets */
 nav ul {
     list-style-type: square;
 }
@@ -11,7 +10,6 @@ nav ul li::marker {
     color: red;
 }
 
-/* Navigation link colors */
 nav a:link {
     color: blue;
 }
@@ -25,7 +23,6 @@ nav a:active {
     color: orange;
 }
 
-/* Header styles */
 header {
     background-color: #333;
     color: white;
@@ -33,7 +30,6 @@ header {
     text-align: center;
 }
 
-/* Main section styling */
 main {
     width: calc(70% - 1px);
     float: left;
@@ -41,13 +37,11 @@ main {
     border-right: 1px solid black;
 }
 
-/* Aside styling */
 aside {
     width: 30%;
     float: right;
 }
 
-/* Footer styling */
 footer {
     clear: both;
     background-color: #333;
