@@ -1,1 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture and Figure Lab</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <figure>
+        <picture>
+            <!-- Small preferred (WebP) -->
+            <source srcset="image-small.webp" type="image/webp" media="(max-width: 600px)">
+            <!-- Small fallback (JPG) -->
+            <source srcset="image-small.jpg" type="image/jpeg" media="(max-width: 600px)">
+            <!-- Large preferred (WebP) -->
+            <source srcset="image-large.webp" type="image/webp">
+            <!-- Large fallback (JPG) -->
+            <source srcset="image-large.jpg" type="image/jpeg">
+            <!-- Fallback image -->
+            <img src="image-large.jpg" alt="A descriptive image text">
+        </picture>
+        <figcaption>This is an example of a responsive image using the &lt;picture&gt; element.</figcaption>
+    </figure>
+</body>
+</html>
 
