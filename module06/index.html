@@ -1,22 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WebDev 06 Lab</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <figure>
-        <picture>
-            <source srcset="image/5090_small(PP).jpg" type="image/jpg">
-            <source srcset="image/5090_small2(PP).jpg" type="image/jpg">
-            <source srcset="image/5090_large(PP).jpg" type="image/jpg">
-            <source srcset="image/5090_large2(PP).jpg" type="image/jpg">
-            <img src="image/5090_large(PP).jpg" alt="What a nice piece of technology">
-        </picture>
-        <figcaption>This is an example of an image using the picture element.</figcaption>
-    </figure>
+  <header>
+    <h1>Your Name</h1>
+    <p>City, State</p>
+  </header>
+
+  <main class="grid-container">
+    <section id="experience">
+      <h2>Experience</h2>
+      <div class="experience-item">
+        <img src="images/work1.jpg" alt="Project Image" />
+        <div class="description">
+          <h3>Project/Job Title</h3>
+          <p>Short description of what you did.</p>
+        </div>
+      </div>
+      <!-- Repeat as needed -->
+    </section>
+
+    <section id="achievements">
+      <h2>Achievements</h2>
+      <ul>
+        <li>Built a full-stack app using HTML/CSS/JavaScript</li>
+        <li>Completed a game using GameMaker</li>
+        <li>Overcame a learning challenge in web development</li>
+      </ul>
+    </section>
+
+    <section id="interests">
+      <h2>Personal Interests</h2>
+      <ul>
+        <li>Samurai movies</li>
+        <li>Card games</li>
+        <li>Hiking</li>
+      </ul>
+    </section>
+
+    <section id="game">
+      <h2>Playable Game</h2>
+      <img src="images/game-preview.png" alt="Game Screenshot" />
+      <p><strong>Title:</strong> My Game Title</p>
+      <p><strong>Description:</strong> A short game about...</p>
+      <p><strong>Instructions:</strong> Use arrow keys to move, space to shoot.</p>
+      <a href="https://yourgithubusername.github.io/mygamefolder" target="_blank">Play Now</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>Contact: your.email@example.com (optional)</p>
+  </footer>
 </body>
 </html>
+
 
